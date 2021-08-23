@@ -8,15 +8,18 @@
   width: 90vw;
   height: 80vh;
   border-radius: 50px;
-  background: #619e94;
-  box-shadow: -8px 8px 16px #52867e, 8px -8px 16px #70b6aa;
+  background: #3c4f58;
+  box-shadow:  -8px 8px 16px #33434b,
+               8px -8px 16px #455b65;
   position: sticky;
   top: -15px;
 }
 li {
   padding: 2rem;
   margin: 1.3rem;
-  background: linear-gradient(rgb(26, 255, 179), #44344f);
+  margin-right:30%;
+  font-family: "Urbanist";
+  background: linear-gradient(rgb(26, 255, 179) 80%,  #44344f);
   border-radius: 84px;
   box-shadow: 0.5px 2.5px 3px black;
   border-top-left-radius: 5px;
