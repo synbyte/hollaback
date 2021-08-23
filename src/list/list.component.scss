@@ -1,0 +1,31 @@
+@mixin flex {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+#main {
+  @include flex();
+  width: 95vw;
+  height: 80vh;
+  background: #123;
+  box-shadow: 0 5.5px 5px black;
+  border-radius: 2%;
+  position: sticky;
+  top: -15px;
+}
+li {
+  padding: 2rem;
+  margin: 1.3rem;
+  background: linear-gradient(rgb(26, 255, 179), #44344f);
+  border-radius: 84px;
+  box-shadow: 0.5px 2.5px 3px black;
+  border-top-left-radius: 5px;
+  text-align: left;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  align-content: left;
+  justify-items: left;
+}
