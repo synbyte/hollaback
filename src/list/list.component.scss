@@ -5,11 +5,11 @@
 }
 #main {
   @include flex();
-  width: 95vw;
+  width: 90vw;
   height: 80vh;
-  background: #123;
-  box-shadow: 0 5.5px 5px black;
-  border-radius: 2%;
+  border-radius: 50px;
+  background: #619e94;
+  box-shadow: -8px 8px 16px #52867e, 8px -8px 16px #70b6aa;
   position: sticky;
   top: -15px;
 }
@@ -28,4 +28,6 @@ ul {
   list-style-type: none;
   align-content: left;
   justify-items: left;
+  overflow: none;
+  overflow-y: scroll;
 }

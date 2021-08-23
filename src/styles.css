@@ -20,7 +20,7 @@ body {
   max-width: 1000px;
 
   margin: auto;
-  background: #111;
+  background: rgb(48, 61, 66);
 }
 @media (min-width: 600px) {
   body {
