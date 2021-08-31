@@ -15,17 +15,23 @@
   top: -15px;
 }
 li {
-  padding: 2rem;
-  margin: 1.3rem;
-  margin-right:30%;
+  padding: 1rem;
+  margin: .6rem;
+  margin-right:38%;
   font-family: "Urbanist";
-  background: linear-gradient(rgb(26, 255, 179) 80%,  #44344f);
+  background: linear-gradient(rgb(26, 255, 179) 50%, rgba(255, 166, 0, 0.801),  );
   border-radius: 84px;
-  box-shadow: 0.5px 2.5px 3px black;
+  box-shadow: 0.5px 2.5px px rgb(255, 0, 0);
   border-top-left-radius: 5px;
   text-align: left;
+  font-size:12px;
+}
+footer {
+  display:block;
+  
 }
 
+.card
 ul {
   display: block;
   list-style-type: none;

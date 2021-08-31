@@ -1,19 +1,19 @@
 @mixin flex {
   display: flex;
-  margin:0 auto;
+  margin: 0 auto;
   justify-content: center;
 }
 h1 {
-  font-family:"Playball", display;
-  font-size:2rem;
+  font-family: 'Playball', display;
+  font-size: 2rem;
   text-shadow: 1px 1px 15px black;
 }
 
 #navbar {
   @include flex;
-  background:linear-gradient(#44344F,#111);
+  background: linear-gradient(#44344f);
   width: 100vw;
-  padding:0;
+  padding: 0;
 }
 
 /*
